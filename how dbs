@@ -1,0 +1,11 @@
+[0;1;32m●[0m mongod.service - MongoDB Database Server
+   Loaded: loaded (/usr/lib/systemd/system/mongod.service; enabled; vendor preset: disabled)
+   Active: [0;1;32mactive (running)[0m since Sat 2024-03-09 19:00:08 CST; 28min ago
+     Docs: https://docs.mongodb.org/manual
+ Main PID: 31379 (mongod)
+   Memory: 136.5M
+   CGroup: /system.slice/mongod.service
+           └─31379 /usr/bin/mongod -f /etc/mongod.conf
+
+Mar 09 19:00:08 VM-8-15-opencloudos systemd[1]: Started MongoDB Database Server.
+Mar 09 19:00:08 VM-8-15-opencloudos mongod[31379]: {"t":{"$date":"2024-03-09T11:00:08.671Z"},"s":"I",  "c":"CONTROL",  "id":7484500, "ctx":"-","msg":"Environment variable MONGODB_CONFIG_OVERRIDE_NOFORK == 1, overriding \"processManagement.fork\" to false"}
